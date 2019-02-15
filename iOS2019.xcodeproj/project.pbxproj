@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10C69FF22164E3400076A25 /* ConvertidorGradosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10C69FE22164E3400076A25 /* ConvertidorGradosViewController.swift */; };
 		E17BA31A220D159C0044B5A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17BA319220D159C0044B5A3 /* AppDelegate.swift */; };
 		E17BA31C220D159C0044B5A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17BA31B220D159C0044B5A3 /* ViewController.swift */; };
 		E17BA31F220D159C0044B5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17BA31D220D159C0044B5A3 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E10C69FE22164E3400076A25 /* ConvertidorGradosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertidorGradosViewController.swift; sourceTree = "<group>"; };
+		E11727682214FAC200327D35 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E17BA316220D159C0044B5A3 /* iOS2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17BA319220D159C0044B5A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E17BA31B220D159C0044B5A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +82,7 @@
 		E17BA30D220D159C0044B5A3 = {
 			isa = PBXGroup;
 			children = (
+				E11727682214FAC200327D35 /* MyPlayground.playground */,
 				E17BA318220D159C0044B5A3 /* iOS2019 */,
 				E17BA32D220D159D0044B5A3 /* iOS2019Tests */,
 				E17BA338220D159D0044B5A3 /* iOS2019UITests */,
@@ -106,6 +110,7 @@
 				E17BA322220D159D0044B5A3 /* LaunchScreen.storyboard */,
 				E17BA325220D159D0044B5A3 /* Info.plist */,
 				E17BA347220D1C330044B5A3 /* Practica1ViewController.swift */,
+				E10C69FE22164E3400076A25 /* ConvertidorGradosViewController.swift */,
 			);
 			path = iOS2019;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			files = (
 				E17BA31C220D159C0044B5A3 /* ViewController.swift in Sources */,
 				E17BA348220D1C330044B5A3 /* Practica1ViewController.swift in Sources */,
+				E10C69FF22164E3400076A25 /* ConvertidorGradosViewController.swift in Sources */,
 				E17BA31A220D159C0044B5A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
