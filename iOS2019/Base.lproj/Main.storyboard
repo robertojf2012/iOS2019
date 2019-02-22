@@ -84,6 +84,73 @@
             </objects>
             <point key="canvasLocation" x="1600.8" y="-527.58620689655174"/>
         </scene>
+        <!--Controller-->
+        <scene sceneID="ffV-Pq-cPC">
+            <objects>
+                <viewController id="dgc-ND-QdA" customClass="IMCController" customModule="iOS2019" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6o3-jR-xUf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresa tu peso en KG" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ivy-tw-Tve">
+                                <rect key="frame" x="80" y="84" width="215" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJy-CC-9My">
+                                <rect key="frame" x="60" y="184" width="255" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Calcular"/>
+                                <connections>
+                                    <action selector="btnCalcular:" destination="dgc-ND-QdA" eventType="touchUpInside" id="Art-n5-UfF"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Estatura en mts" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7NF-Gb-ZGT">
+                                <rect key="frame" x="80" y="134" width="215" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcw-qE-q0Q">
+                                <rect key="frame" x="0.0" y="264" width="375" height="100"/>
+                                <color key="backgroundColor" red="0.64732094470000001" green="0.95450808570000001" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="1VE-xt-o5D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ivy-tw-Tve" firstAttribute="top" secondItem="vWS-Vj-UiI" secondAttribute="top" constant="20" id="2MZ-3P-A56"/>
+                            <constraint firstItem="vWS-Vj-UiI" firstAttribute="trailing" secondItem="ivy-tw-Tve" secondAttribute="trailing" constant="80" id="EW4-Vs-If4"/>
+                            <constraint firstItem="7NF-Gb-ZGT" firstAttribute="leading" secondItem="vWS-Vj-UiI" secondAttribute="leading" constant="80" id="Ere-kp-6u1"/>
+                            <constraint firstItem="7NF-Gb-ZGT" firstAttribute="top" secondItem="ivy-tw-Tve" secondAttribute="bottom" constant="20" id="FXV-eC-g2S"/>
+                            <constraint firstItem="lJy-CC-9My" firstAttribute="top" secondItem="7NF-Gb-ZGT" secondAttribute="bottom" constant="20" id="Ngh-mZ-TiT"/>
+                            <constraint firstItem="Xcw-qE-q0Q" firstAttribute="top" secondItem="lJy-CC-9My" secondAttribute="bottom" constant="50" id="enE-8F-ckm"/>
+                            <constraint firstItem="vWS-Vj-UiI" firstAttribute="trailing" secondItem="7NF-Gb-ZGT" secondAttribute="trailing" constant="80" id="h4y-4R-TsM"/>
+                            <constraint firstItem="Xcw-qE-q0Q" firstAttribute="leading" secondItem="vWS-Vj-UiI" secondAttribute="leading" id="hsL-rt-IgM"/>
+                            <constraint firstItem="ivy-tw-Tve" firstAttribute="leading" secondItem="vWS-Vj-UiI" secondAttribute="leading" constant="80" id="iDZ-Ze-9XZ"/>
+                            <constraint firstItem="vWS-Vj-UiI" firstAttribute="trailing" secondItem="Xcw-qE-q0Q" secondAttribute="trailing" id="r8e-HJ-dwv"/>
+                            <constraint firstItem="vWS-Vj-UiI" firstAttribute="trailing" secondItem="lJy-CC-9My" secondAttribute="trailing" constant="60" id="uZw-Q4-Qkn"/>
+                            <constraint firstItem="lJy-CC-9My" firstAttribute="leading" secondItem="vWS-Vj-UiI" secondAttribute="leading" constant="60" id="vmF-E5-V2c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vWS-Vj-UiI"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblResult" destination="Xcw-qE-q0Q" id="G4h-aU-WNU"/>
+                        <outlet property="txtEstatura" destination="7NF-Gb-ZGT" id="w2c-KE-X3q"/>
+                        <outlet property="txtPeso" destination="ivy-tw-Tve" id="zP7-vU-GQI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uCb-W3-w2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="165.06746626686657"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -108,13 +175,25 @@
                                     <segue destination="gdC-sD-nOd" kind="show" id="QIy-PK-wKR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEL-RH-ZGA">
+                                <rect key="frame" x="0.0" y="144" width="375" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="IMC"/>
+                                <connections>
+                                    <segue destination="dgc-ND-QdA" kind="show" id="oRf-V5-xI8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1aP-Yy-oyL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BDs-3b-8hd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NTn-A4-C7l" secondAttribute="trailing" id="CLH-hR-EtS"/>
+                            <constraint firstItem="hEL-RH-ZGA" firstAttribute="top" secondItem="NTn-A4-C7l" secondAttribute="bottom" constant="10" id="QDt-8o-C3f"/>
                             <constraint firstItem="1aP-Yy-oyL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UUf-if-EPV"/>
                             <constraint firstItem="NTn-A4-C7l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UZL-qY-0p5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hEL-RH-ZGA" secondAttribute="trailing" id="YXI-gR-o1V"/>
+                            <constraint firstItem="hEL-RH-ZGA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dAv-nb-lFh"/>
                             <constraint firstItem="NTn-A4-C7l" firstAttribute="top" secondItem="1aP-Yy-oyL" secondAttribute="bottom" constant="10" id="uzH-Or-kGq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1aP-Yy-oyL" secondAttribute="trailing" id="xh7-rN-ZA7"/>
                         </constraints>

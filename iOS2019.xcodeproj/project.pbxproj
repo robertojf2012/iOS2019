@@ -16,6 +16,7 @@
 		E17BA32F220D159D0044B5A3 /* iOS2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17BA32E220D159D0044B5A3 /* iOS2019Tests.swift */; };
 		E17BA33A220D159D0044B5A3 /* iOS2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17BA339220D159D0044B5A3 /* iOS2019UITests.swift */; };
 		E17BA348220D1C330044B5A3 /* Practica1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17BA347220D1C330044B5A3 /* Practica1ViewController.swift */; };
+		E19D13FE221F88C80070F9FE /* IMCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D13FD221F88C80070F9FE /* IMCController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		E17BA339220D159D0044B5A3 /* iOS2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS2019UITests.swift; sourceTree = "<group>"; };
 		E17BA33B220D159D0044B5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E17BA347220D1C330044B5A3 /* Practica1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica1ViewController.swift; sourceTree = "<group>"; };
+		E19D13FD221F88C80070F9FE /* IMCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				E17BA325220D159D0044B5A3 /* Info.plist */,
 				E17BA347220D1C330044B5A3 /* Practica1ViewController.swift */,
 				E10C69FE22164E3400076A25 /* ConvertidorGradosViewController.swift */,
+				E19D13FD221F88C80070F9FE /* IMCController.swift */,
 			);
 			path = iOS2019;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19D13FE221F88C80070F9FE /* IMCController.swift in Sources */,
 				E17BA31C220D159C0044B5A3 /* ViewController.swift in Sources */,
 				E17BA348220D1C330044B5A3 /* Practica1ViewController.swift in Sources */,
 				E10C69FF22164E3400076A25 /* ConvertidorGradosViewController.swift in Sources */,
@@ -443,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCCF9S9JK5;
 				INFOPLIST_FILE = iOS2019/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCCF9S9JK5;
 				INFOPLIST_FILE = iOS2019/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
