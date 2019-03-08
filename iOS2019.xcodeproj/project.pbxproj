@@ -23,6 +23,12 @@
 		E19D13FE221F88C80070F9FE /* IMCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D13FD221F88C80070F9FE /* IMCController.swift */; };
 		E19E443A2230AE4300831F40 /* SonidoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E44392230AE4300831F40 /* SonidoViewController.swift */; };
 		E19E443D2230B3DD00831F40 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E19E443C2230B3DD00831F40 /* cat.wav */; };
+		E1B73FEE2231F9C100E70887 /* SpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */; };
+		E1B73FF32231FD5C00E70887 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E1B73FF22231FD5C00E70887 /* moments.mp4 */; };
+		E1B73FF72231FFDD00E70887 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FF52231FFDD00E70887 /* VideoCutter.swift */; };
+		E1B73FF82231FFDD00E70887 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FF62231FFDD00E70887 /* VideoSplashViewController.swift */; };
+		E1B73FFA2232040300E70887 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FF92232040300E70887 /* SignUpViewController.swift */; };
+		E1B73FFC2232043100E70887 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FFB2232043100E70887 /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +76,12 @@
 		E19D13FD221F88C80070F9FE /* IMCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCController.swift; sourceTree = "<group>"; };
 		E19E44392230AE4300831F40 /* SonidoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonidoViewController.swift; sourceTree = "<group>"; };
 		E19E443C2230B3DD00831F40 /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
+		E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyViewController.swift; sourceTree = "<group>"; };
+		E1B73FF22231FD5C00E70887 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
+		E1B73FF52231FFDD00E70887 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
+		E1B73FF62231FFDD00E70887 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		E1B73FF92232040300E70887 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E1B73FFB2232043100E70887 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		EBD580DDE16DC781A17D00D2 /* Pods-iOS2019Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS2019Tests.release.xcconfig"; path = "Target Support Files/Pods-iOS2019Tests/Pods-iOS2019Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FA0C2EDB634CC7766F547D4D /* Pods-iOS2019Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS2019Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOS2019Tests/Pods-iOS2019Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,10 +163,14 @@
 		E17BA318220D159C0044B5A3 /* iOS2019 */ = {
 			isa = PBXGroup;
 			children = (
+				E1B73FF42231FFBF00E70887 /* Libraries */,
+				E1B73FEF2231FD2600E70887 /* Files */,
 				E19E443B2230B31900831F40 /* Sounds */,
 				E17BA319220D159C0044B5A3 /* AppDelegate.swift */,
+				E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */,
 				E17BA31B220D159C0044B5A3 /* ViewController.swift */,
 				E17BA31D220D159C0044B5A3 /* Main.storyboard */,
+				E1B73FF92232040300E70887 /* SignUpViewController.swift */,
 				E19E44392230AE4300831F40 /* SonidoViewController.swift */,
 				E17BA320220D159D0044B5A3 /* Assets.xcassets */,
 				E17BA322220D159D0044B5A3 /* LaunchScreen.storyboard */,
@@ -163,6 +179,7 @@
 				E10C69FE22164E3400076A25 /* ConvertidorGradosViewController.swift */,
 				E19D13FD221F88C80070F9FE /* IMCController.swift */,
 				E1407F1D2224CFBB00B0387A /* MotionShakeViewController.swift */,
+				E1B73FFB2232043100E70887 /* LogInViewController.swift */,
 			);
 			path = iOS2019;
 			sourceTree = "<group>";
@@ -191,6 +208,23 @@
 				E19E443C2230B3DD00831F40 /* cat.wav */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E1B73FEF2231FD2600E70887 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1B73FF22231FD5C00E70887 /* moments.mp4 */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		E1B73FF42231FFBF00E70887 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E1B73FF52231FFDD00E70887 /* VideoCutter.swift */,
+				E1B73FF62231FFDD00E70887 /* VideoSplashViewController.swift */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +339,7 @@
 				E17BA321220D159D0044B5A3 /* Assets.xcassets in Resources */,
 				E17BA31F220D159C0044B5A3 /* Main.storyboard in Resources */,
 				E19E443D2230B3DD00831F40 /* cat.wav in Resources */,
+				E1B73FF32231FD5C00E70887 /* moments.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,10 +455,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B73FFA2232040300E70887 /* SignUpViewController.swift in Sources */,
 				E19D13FE221F88C80070F9FE /* IMCController.swift in Sources */,
 				E1407F1E2224CFBB00B0387A /* MotionShakeViewController.swift in Sources */,
 				E17BA31C220D159C0044B5A3 /* ViewController.swift in Sources */,
+				E1B73FF82231FFDD00E70887 /* VideoSplashViewController.swift in Sources */,
+				E1B73FF72231FFDD00E70887 /* VideoCutter.swift in Sources */,
+				E1B73FEE2231F9C100E70887 /* SpotifyViewController.swift in Sources */,
 				E17BA348220D1C330044B5A3 /* Practica1ViewController.swift in Sources */,
+				E1B73FFC2232043100E70887 /* LogInViewController.swift in Sources */,
 				E19E443A2230AE4300831F40 /* SonidoViewController.swift in Sources */,
 				E10C69FF22164E3400076A25 /* ConvertidorGradosViewController.swift in Sources */,
 				E17BA31A220D159C0044B5A3 /* AppDelegate.swift in Sources */,
