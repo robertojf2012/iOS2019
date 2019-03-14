@@ -29,6 +29,11 @@
 		E1B73FF82231FFDD00E70887 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FF62231FFDD00E70887 /* VideoSplashViewController.swift */; };
 		E1B73FFA2232040300E70887 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FF92232040300E70887 /* SignUpViewController.swift */; };
 		E1B73FFC2232043100E70887 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FFB2232043100E70887 /* LogInViewController.swift */; };
+		E1B84F082239E4FF00F4C2D0 /* BasketballTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B84F072239E4FF00F4C2D0 /* BasketballTimerViewController.swift */; };
+		E1B84F0E2239E6E200F4C2D0 /* Technology-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B84F0A2239E6E200F4C2D0 /* Technology-Italic.ttf */; };
+		E1B84F0F2239E6E200F4C2D0 /* Technology-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B84F0B2239E6E200F4C2D0 /* Technology-BoldItalic.ttf */; };
+		E1B84F102239E6E200F4C2D0 /* Technology-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B84F0C2239E6E200F4C2D0 /* Technology-Bold.ttf */; };
+		E1B84F112239E6E200F4C2D0 /* Technology.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B84F0D2239E6E200F4C2D0 /* Technology.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +87,11 @@
 		E1B73FF62231FFDD00E70887 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
 		E1B73FF92232040300E70887 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E1B73FFB2232043100E70887 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E1B84F072239E4FF00F4C2D0 /* BasketballTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballTimerViewController.swift; sourceTree = "<group>"; };
+		E1B84F0A2239E6E200F4C2D0 /* Technology-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Technology-Italic.ttf"; sourceTree = "<group>"; };
+		E1B84F0B2239E6E200F4C2D0 /* Technology-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Technology-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E1B84F0C2239E6E200F4C2D0 /* Technology-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Technology-Bold.ttf"; sourceTree = "<group>"; };
+		E1B84F0D2239E6E200F4C2D0 /* Technology.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Technology.ttf; sourceTree = "<group>"; };
 		EBD580DDE16DC781A17D00D2 /* Pods-iOS2019Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS2019Tests.release.xcconfig"; path = "Target Support Files/Pods-iOS2019Tests/Pods-iOS2019Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FA0C2EDB634CC7766F547D4D /* Pods-iOS2019Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS2019Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOS2019Tests/Pods-iOS2019Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +150,7 @@
 		E17BA30D220D159C0044B5A3 = {
 			isa = PBXGroup;
 			children = (
+				E1B84F072239E4FF00F4C2D0 /* BasketballTimerViewController.swift */,
 				E11727682214FAC200327D35 /* MyPlayground.playground */,
 				E17BA318220D159C0044B5A3 /* iOS2019 */,
 				E17BA32D220D159D0044B5A3 /* iOS2019Tests */,
@@ -163,6 +174,7 @@
 		E17BA318220D159C0044B5A3 /* iOS2019 */ = {
 			isa = PBXGroup;
 			children = (
+				E1B84F092239E6A500F4C2D0 /* Fonts */,
 				E1B73FF42231FFBF00E70887 /* Libraries */,
 				E1B73FEF2231FD2600E70887 /* Files */,
 				E19E443B2230B31900831F40 /* Sounds */,
@@ -225,6 +237,17 @@
 				E1B73FF62231FFDD00E70887 /* VideoSplashViewController.swift */,
 			);
 			path = Libraries;
+			sourceTree = "<group>";
+		};
+		E1B84F092239E6A500F4C2D0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E1B84F0C2239E6E200F4C2D0 /* Technology-Bold.ttf */,
+				E1B84F0B2239E6E200F4C2D0 /* Technology-BoldItalic.ttf */,
+				E1B84F0A2239E6E200F4C2D0 /* Technology-Italic.ttf */,
+				E1B84F0D2239E6E200F4C2D0 /* Technology.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,9 +359,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17BA324220D159D0044B5A3 /* LaunchScreen.storyboard in Resources */,
+				E1B84F102239E6E200F4C2D0 /* Technology-Bold.ttf in Resources */,
+				E1B84F0F2239E6E200F4C2D0 /* Technology-BoldItalic.ttf in Resources */,
 				E17BA321220D159D0044B5A3 /* Assets.xcassets in Resources */,
 				E17BA31F220D159C0044B5A3 /* Main.storyboard in Resources */,
+				E1B84F112239E6E200F4C2D0 /* Technology.ttf in Resources */,
 				E19E443D2230B3DD00831F40 /* cat.wav in Resources */,
+				E1B84F0E2239E6E200F4C2D0 /* Technology-Italic.ttf in Resources */,
 				E1B73FF32231FD5C00E70887 /* moments.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +488,7 @@
 				E17BA31C220D159C0044B5A3 /* ViewController.swift in Sources */,
 				E1B73FF82231FFDD00E70887 /* VideoSplashViewController.swift in Sources */,
 				E1B73FF72231FFDD00E70887 /* VideoCutter.swift in Sources */,
+				E1B84F082239E4FF00F4C2D0 /* BasketballTimerViewController.swift in Sources */,
 				E1B73FEE2231F9C100E70887 /* SpotifyViewController.swift in Sources */,
 				E17BA348220D1C330044B5A3 /* Practica1ViewController.swift in Sources */,
 				E1B73FFC2232043100E70887 /* LogInViewController.swift in Sources */,

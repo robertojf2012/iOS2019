@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Technology.ttf">
+            <string>Technology-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Convertidor Grados View Controller-->
         <scene sceneID="wIK-3w-NS1">
@@ -321,6 +326,14 @@
                                     <segue destination="Ewn-kT-SsF" kind="show" id="4Ps-8y-GpU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUT-KL-HzO">
+                                <rect key="frame" x="0.0" y="304" width="375" height="30"/>
+                                <color key="backgroundColor" red="0.64732094470000001" green="0.95450808570000001" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Basketball Timer"/>
+                                <connections>
+                                    <segue destination="F9k-Ot-zyq" kind="show" id="htc-UV-ay8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -329,6 +342,8 @@
                             <constraint firstItem="cWe-tN-ywY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7NG-d0-BMz"/>
                             <constraint firstItem="1aP-Yy-oyL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BDs-3b-8hd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NTn-A4-C7l" secondAttribute="trailing" id="CLH-hR-EtS"/>
+                            <constraint firstItem="pUT-KL-HzO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GUV-IG-l7z"/>
+                            <constraint firstItem="pUT-KL-HzO" firstAttribute="top" secondItem="C6V-ky-8ju" secondAttribute="bottom" constant="10" id="PzN-aG-IYp"/>
                             <constraint firstItem="bPp-Lb-sV2" firstAttribute="top" secondItem="hEL-RH-ZGA" secondAttribute="bottom" constant="10" id="Q4a-Ai-WZB"/>
                             <constraint firstItem="hEL-RH-ZGA" firstAttribute="top" secondItem="NTn-A4-C7l" secondAttribute="bottom" constant="10" id="QDt-8o-C3f"/>
                             <constraint firstItem="1aP-Yy-oyL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UUf-if-EPV"/>
@@ -338,6 +353,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C6V-ky-8ju" secondAttribute="trailing" id="eeb-hc-YJp"/>
                             <constraint firstItem="bPp-Lb-sV2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gAR-nL-6oW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bPp-Lb-sV2" secondAttribute="trailing" id="lMw-MK-Ws3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pUT-KL-HzO" secondAttribute="trailing" id="ot6-Js-9k3"/>
                             <constraint firstItem="C6V-ky-8ju" firstAttribute="top" secondItem="cWe-tN-ywY" secondAttribute="bottom" constant="10" id="uf6-A1-BAW"/>
                             <constraint firstItem="NTn-A4-C7l" firstAttribute="top" secondItem="1aP-Yy-oyL" secondAttribute="bottom" constant="10" id="uzH-Or-kGq"/>
                             <constraint firstItem="cWe-tN-ywY" firstAttribute="top" secondItem="bPp-Lb-sV2" secondAttribute="bottom" constant="10" id="vM0-1z-8Xf"/>
@@ -364,7 +380,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BiH-Cd-qip" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="430" y="1233"/>
+            <point key="canvasLocation" x="698" y="1564"/>
         </scene>
         <!--Spotify View Controller-->
         <scene sceneID="OQy-1c-d48">
@@ -426,6 +442,77 @@
             </objects>
             <point key="canvasLocation" x="1076" y="876"/>
         </scene>
+        <!--Basketball Timer View Controller-->
+        <scene sceneID="Tp7-ba-cBH">
+            <objects>
+                <viewController id="F9k-Ot-zyq" customClass="BasketballTimerViewController" customModule="iOS2019" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t4Y-Ba-0NB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nll-lX-OyQ">
+                                <rect key="frame" x="55" y="183.5" width="265" height="300"/>
+                                <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Technology-Regular" family="Technology" pointSize="300"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ota-yd-WEP">
+                                <rect key="frame" x="0.0" y="547" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.039111401037523419" green="0.10124512104483008" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qRh-Sc-HCK"/>
+                                </constraints>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="btnStart:" destination="F9k-Ot-zyq" eventType="touchUpInside" id="pOG-x7-Wnq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1q-V9-zH6">
+                                <rect key="frame" x="0.0" y="607" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.03911140104" green="0.10124512099999999" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="XTz-Sj-ncM"/>
+                                </constraints>
+                                <state key="normal" title="Reset"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bz3-1N-vBr">
+                                <rect key="frame" x="167.5" y="144" width="40" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Lyn-YI-chI"/>
+                                    <constraint firstAttribute="height" constant="40" id="k0b-zM-HYo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10161160671634743" green="0.10112072938921532" blue="0.10210248404347955" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="0yn-lW-5T2" firstAttribute="trailing" secondItem="m1q-V9-zH6" secondAttribute="trailing" id="A7o-Vu-VFB"/>
+                            <constraint firstItem="nll-lX-OyQ" firstAttribute="centerX" secondItem="t4Y-Ba-0NB" secondAttribute="centerX" id="Hqw-4V-5wX"/>
+                            <constraint firstItem="Bz3-1N-vBr" firstAttribute="top" secondItem="0yn-lW-5T2" secondAttribute="top" constant="80" id="Nu2-T7-gyi"/>
+                            <constraint firstItem="m1q-V9-zH6" firstAttribute="leading" secondItem="0yn-lW-5T2" secondAttribute="leading" id="Ssj-td-coh"/>
+                            <constraint firstItem="0yn-lW-5T2" firstAttribute="bottom" secondItem="m1q-V9-zH6" secondAttribute="bottom" constant="20" id="aPW-oP-XF9"/>
+                            <constraint firstItem="Bz3-1N-vBr" firstAttribute="centerX" secondItem="t4Y-Ba-0NB" secondAttribute="centerX" id="f15-rh-HDI"/>
+                            <constraint firstItem="nll-lX-OyQ" firstAttribute="centerY" secondItem="t4Y-Ba-0NB" secondAttribute="centerY" id="j54-tI-vxY"/>
+                            <constraint firstItem="ota-yd-WEP" firstAttribute="leading" secondItem="0yn-lW-5T2" secondAttribute="leading" id="kJE-Yq-XcT"/>
+                            <constraint firstItem="0yn-lW-5T2" firstAttribute="trailing" secondItem="ota-yd-WEP" secondAttribute="trailing" id="kQf-Xi-7I3"/>
+                            <constraint firstItem="m1q-V9-zH6" firstAttribute="top" secondItem="ota-yd-WEP" secondAttribute="bottom" constant="20" id="rR1-hF-fwR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0yn-lW-5T2"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnStartStop" destination="ota-yd-WEP" id="dBa-f7-rMq"/>
+                        <outlet property="lblIndicator" destination="Bz3-1N-vBr" id="lL5-hL-mQ9"/>
+                        <outlet property="lblTimer" destination="nll-lX-OyQ" id="ijk-PH-cqv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0zA-tZ-IhH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1911" y="968"/>
+        </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="Zrt-23-BWu">
             <objects>
@@ -439,7 +526,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rwo-3r-CqC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1722" y="1220"/>
+            <point key="canvasLocation" x="1439" y="1657"/>
         </scene>
         <!--Practica1 View Controller-->
         <scene sceneID="OXq-jO-2SF">
