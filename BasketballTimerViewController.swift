@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SwiftySound
 class BasketballTimerViewController: UIViewController {
 
     @IBOutlet weak var lblIndicator: UILabel!
@@ -17,6 +17,7 @@ class BasketballTimerViewController: UIViewController {
     
     @IBOutlet weak var lblTimer: UILabel!
     @IBOutlet weak var btnStartStop: UIButton!
+    private var mySound: Sound?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,12 +44,33 @@ class BasketballTimerViewController: UIViewController {
         }
     }
     
+    @IBAction func btnReset(_ sender: Any) {
+        countDownTimer.invalidate()
+        totalTime = 24;
+        updateTime()
+        lblIndicator.isHidden = false;
+        btnStartStop.setTitle("Start", for: UIControl.State.normal)
+    }
+    
     func startTimer(){
         countDownTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
     }
     
     func endTimer() {
+        playEndGameSound()
         countDownTimer.invalidate()
+    }
+    
+    func playEndGameSound(){
+        Sound.enabled = true
+        if let URL = Bundle.main.url(forResource: "endgame", withExtension: "wav"){
+            mySound = Sound(url: URL)
+        }
+        
+        mySound?.play{ completed in
+            //print("ready")
+            //self.navigationController?.popViewController(animated: true)
+        }
     }
     
     @objc func updateTime(){

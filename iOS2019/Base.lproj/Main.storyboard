@@ -475,6 +475,9 @@
                                     <constraint firstAttribute="height" constant="40" id="XTz-Sj-ncM"/>
                                 </constraints>
                                 <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="btnReset:" destination="F9k-Ot-zyq" eventType="touchUpInside" id="nA0-RQ-ZW9"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bz3-1N-vBr">
                                 <rect key="frame" x="167.5" y="144" width="40" height="40"/>

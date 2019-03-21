@@ -23,6 +23,7 @@
 		E19D13FE221F88C80070F9FE /* IMCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D13FD221F88C80070F9FE /* IMCController.swift */; };
 		E19E443A2230AE4300831F40 /* SonidoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E44392230AE4300831F40 /* SonidoViewController.swift */; };
 		E19E443D2230B3DD00831F40 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E19E443C2230B3DD00831F40 /* cat.wav */; };
+		E1A4EC1D22431F1F00022B41 /* endgame.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1A4EC1C22431F1F00022B41 /* endgame.wav */; };
 		E1B73FEE2231F9C100E70887 /* SpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */; };
 		E1B73FF32231FD5C00E70887 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E1B73FF22231FD5C00E70887 /* moments.mp4 */; };
 		E1B73FF72231FFDD00E70887 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FF52231FFDD00E70887 /* VideoCutter.swift */; };
@@ -81,6 +82,7 @@
 		E19D13FD221F88C80070F9FE /* IMCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCController.swift; sourceTree = "<group>"; };
 		E19E44392230AE4300831F40 /* SonidoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonidoViewController.swift; sourceTree = "<group>"; };
 		E19E443C2230B3DD00831F40 /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
+		E1A4EC1C22431F1F00022B41 /* endgame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = endgame.wav; sourceTree = "<group>"; };
 		E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyViewController.swift; sourceTree = "<group>"; };
 		E1B73FF22231FD5C00E70887 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
 		E1B73FF52231FFDD00E70887 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 		E19E443B2230B31900831F40 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				E1A4EC1C22431F1F00022B41 /* endgame.wav */,
 				E19E443C2230B3DD00831F40 /* cat.wav */,
 			);
 			path = Sounds;
@@ -362,6 +365,7 @@
 				E1B84F102239E6E200F4C2D0 /* Technology-Bold.ttf in Resources */,
 				E1B84F0F2239E6E200F4C2D0 /* Technology-BoldItalic.ttf in Resources */,
 				E17BA321220D159D0044B5A3 /* Assets.xcassets in Resources */,
+				E1A4EC1D22431F1F00022B41 /* endgame.wav in Resources */,
 				E17BA31F220D159C0044B5A3 /* Main.storyboard in Resources */,
 				E1B84F112239E6E200F4C2D0 /* Technology.ttf in Resources */,
 				E19E443D2230B3DD00831F40 /* cat.wav in Resources */,
