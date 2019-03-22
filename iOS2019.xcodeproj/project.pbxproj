@@ -23,6 +23,7 @@
 		E19D13FE221F88C80070F9FE /* IMCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D13FD221F88C80070F9FE /* IMCController.swift */; };
 		E19E443A2230AE4300831F40 /* SonidoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E44392230AE4300831F40 /* SonidoViewController.swift */; };
 		E19E443D2230B3DD00831F40 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E19E443C2230B3DD00831F40 /* cat.wav */; };
+		E1A1F6772244778400E3EC3A /* Primera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A1F6752244778400E3EC3A /* Primera.storyboard */; };
 		E1A4EC1D22431F1F00022B41 /* endgame.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1A4EC1C22431F1F00022B41 /* endgame.wav */; };
 		E1A4EC1F2243263400022B41 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A4EC1E2243263400022B41 /* SimpleTableViewController.swift */; };
 		E1B73FEE2231F9C100E70887 /* SpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */; };
@@ -36,6 +37,13 @@
 		E1B84F0F2239E6E200F4C2D0 /* Technology-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B84F0B2239E6E200F4C2D0 /* Technology-BoldItalic.ttf */; };
 		E1B84F102239E6E200F4C2D0 /* Technology-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B84F0C2239E6E200F4C2D0 /* Technology-Bold.ttf */; };
 		E1B84F112239E6E200F4C2D0 /* Technology.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B84F0D2239E6E200F4C2D0 /* Technology.ttf */; };
+		E1F135BD224479E60021874C /* Convertidor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F135BB224479E60021874C /* Convertidor.storyboard */; };
+		E1F135C122447AA40021874C /* Imc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F135BF22447AA40021874C /* Imc.storyboard */; };
+		E1F135C322447DF50021874C /* Sonido.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F135C222447DF50021874C /* Sonido.storyboard */; };
+		E1F135C622447E560021874C /* Shake.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F135C422447E560021874C /* Shake.storyboard */; };
+		E1F135C922447EA70021874C /* Table.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F135C722447EA70021874C /* Table.storyboard */; };
+		E1F135CC22447EE60021874C /* Spotify.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F135CA22447EE60021874C /* Spotify.storyboard */; };
+		E1F135CF22447F670021874C /* Basketball.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F135CD22447F660021874C /* Basketball.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +91,7 @@
 		E19D13FD221F88C80070F9FE /* IMCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCController.swift; sourceTree = "<group>"; };
 		E19E44392230AE4300831F40 /* SonidoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonidoViewController.swift; sourceTree = "<group>"; };
 		E19E443C2230B3DD00831F40 /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
+		E1A1F6762244778400E3EC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Primera.storyboard; sourceTree = "<group>"; };
 		E1A4EC1C22431F1F00022B41 /* endgame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = endgame.wav; sourceTree = "<group>"; };
 		E1A4EC1E2243263400022B41 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +105,13 @@
 		E1B84F0B2239E6E200F4C2D0 /* Technology-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Technology-BoldItalic.ttf"; sourceTree = "<group>"; };
 		E1B84F0C2239E6E200F4C2D0 /* Technology-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Technology-Bold.ttf"; sourceTree = "<group>"; };
 		E1B84F0D2239E6E200F4C2D0 /* Technology.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Technology.ttf; sourceTree = "<group>"; };
+		E1F135BC224479E60021874C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Convertidor.storyboard; sourceTree = "<group>"; };
+		E1F135C022447AA40021874C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Imc.storyboard; sourceTree = "<group>"; };
+		E1F135C222447DF50021874C /* Sonido.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Sonido.storyboard; path = iOS2019/Sonido.storyboard; sourceTree = SOURCE_ROOT; };
+		E1F135C522447E560021874C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Shake.storyboard; sourceTree = "<group>"; };
+		E1F135C822447EA70021874C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Table.storyboard; sourceTree = "<group>"; };
+		E1F135CB22447EE60021874C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Spotify.storyboard; sourceTree = "<group>"; };
+		E1F135CE22447F660021874C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Basketball.storyboard; sourceTree = "<group>"; };
 		EBD580DDE16DC781A17D00D2 /* Pods-iOS2019Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS2019Tests.release.xcconfig"; path = "Target Support Files/Pods-iOS2019Tests/Pods-iOS2019Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FA0C2EDB634CC7766F547D4D /* Pods-iOS2019Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS2019Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOS2019Tests/Pods-iOS2019Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,9 +199,17 @@
 				E1B73FEF2231FD2600E70887 /* Files */,
 				E19E443B2230B31900831F40 /* Sounds */,
 				E17BA319220D159C0044B5A3 /* AppDelegate.swift */,
+				E1F135C422447E560021874C /* Shake.storyboard */,
+				E1F135CA22447EE60021874C /* Spotify.storyboard */,
+				E1F135CD22447F660021874C /* Basketball.storyboard */,
+				E1F135C722447EA70021874C /* Table.storyboard */,
+				E1F135C222447DF50021874C /* Sonido.storyboard */,
+				E1A1F6752244778400E3EC3A /* Primera.storyboard */,
+				E1F135BB224479E60021874C /* Convertidor.storyboard */,
 				E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */,
 				E17BA31B220D159C0044B5A3 /* ViewController.swift */,
 				E17BA31D220D159C0044B5A3 /* Main.storyboard */,
+				E1F135BF22447AA40021874C /* Imc.storyboard */,
 				E1A4EC1E2243263400022B41 /* SimpleTableViewController.swift */,
 				E1B73FF92232040300E70887 /* SignUpViewController.swift */,
 				E19E44392230AE4300831F40 /* SonidoViewController.swift */,
@@ -364,6 +388,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F135C622447E560021874C /* Shake.storyboard in Resources */,
+				E1F135C122447AA40021874C /* Imc.storyboard in Resources */,
 				E17BA324220D159D0044B5A3 /* LaunchScreen.storyboard in Resources */,
 				E1B84F102239E6E200F4C2D0 /* Technology-Bold.ttf in Resources */,
 				E1B84F0F2239E6E200F4C2D0 /* Technology-BoldItalic.ttf in Resources */,
@@ -373,7 +399,13 @@
 				E1B84F112239E6E200F4C2D0 /* Technology.ttf in Resources */,
 				E19E443D2230B3DD00831F40 /* cat.wav in Resources */,
 				E1B84F0E2239E6E200F4C2D0 /* Technology-Italic.ttf in Resources */,
+				E1F135C322447DF50021874C /* Sonido.storyboard in Resources */,
 				E1B73FF32231FD5C00E70887 /* moments.mp4 in Resources */,
+				E1F135CC22447EE60021874C /* Spotify.storyboard in Resources */,
+				E1A1F6772244778400E3EC3A /* Primera.storyboard in Resources */,
+				E1F135CF22447F670021874C /* Basketball.storyboard in Resources */,
+				E1F135BD224479E60021874C /* Convertidor.storyboard in Resources */,
+				E1F135C922447EA70021874C /* Table.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +584,62 @@
 				E17BA323220D159D0044B5A3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E1A1F6752244778400E3EC3A /* Primera.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A1F6762244778400E3EC3A /* Base */,
+			);
+			name = Primera.storyboard;
+			sourceTree = "<group>";
+		};
+		E1F135BB224479E60021874C /* Convertidor.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F135BC224479E60021874C /* Base */,
+			);
+			name = Convertidor.storyboard;
+			sourceTree = "<group>";
+		};
+		E1F135BF22447AA40021874C /* Imc.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F135C022447AA40021874C /* Base */,
+			);
+			name = Imc.storyboard;
+			sourceTree = "<group>";
+		};
+		E1F135C422447E560021874C /* Shake.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F135C522447E560021874C /* Base */,
+			);
+			name = Shake.storyboard;
+			sourceTree = "<group>";
+		};
+		E1F135C722447EA70021874C /* Table.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F135C822447EA70021874C /* Base */,
+			);
+			name = Table.storyboard;
+			sourceTree = "<group>";
+		};
+		E1F135CA22447EE60021874C /* Spotify.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F135CB22447EE60021874C /* Base */,
+			);
+			name = Spotify.storyboard;
+			sourceTree = "<group>";
+		};
+		E1F135CD22447F660021874C /* Basketball.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F135CE22447F660021874C /* Base */,
+			);
+			name = Basketball.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Technology.ttf">
+            <string>Technology-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -72,7 +77,7 @@
                                 <color key="backgroundColor" red="0.64732094470000001" green="0.95450808570000001" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Basketball Timer"/>
                                 <connections>
-                                    <segue destination="oce-x0-b0F" kind="show" id="htc-UV-ay8"/>
+                                    <segue destination="F9k-Ot-zyq" kind="show" id="htc-UV-ay8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8b-fJ-4jV">
@@ -119,6 +124,125 @@
             </objects>
             <point key="canvasLocation" x="1076" y="132.68365817091455"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="NGG-9A-2Zt">
+            <objects>
+                <viewController storyboardIdentifier="UIViewController-Y1r-AY-IAI" id="Y1r-AY-IAI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J39-BN-FwL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9Hh-Od-Yny"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Htc-7K-yfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-626" y="1108"/>
+        </scene>
+        <!--Log In View Controller-->
+        <scene sceneID="jEA-8M-aWm">
+            <objects>
+                <viewController storyboardIdentifier="UIViewController-KIK-ON-947" id="KIK-ON-947" customClass="LogInViewController" customModule="iOS2019" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q7G-3B-qPG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ujn-Ow-M5U"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BiH-Cd-qip" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="698" y="1564"/>
+        </scene>
+        <!--Basketball Timer View Controller-->
+        <scene sceneID="Tp7-ba-cBH">
+            <objects>
+                <viewController id="F9k-Ot-zyq" customClass="BasketballTimerViewController" customModule="iOS2019" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t4Y-Ba-0NB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nll-lX-OyQ">
+                                <rect key="frame" x="55" y="183.5" width="265" height="300"/>
+                                <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Technology-Regular" family="Technology" pointSize="300"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ota-yd-WEP">
+                                <rect key="frame" x="0.0" y="547" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.039111401037523419" green="0.10124512104483008" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qRh-Sc-HCK"/>
+                                </constraints>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="btnStart:" destination="F9k-Ot-zyq" eventType="touchUpInside" id="pOG-x7-Wnq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1q-V9-zH6">
+                                <rect key="frame" x="0.0" y="607" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.03911140104" green="0.10124512099999999" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="XTz-Sj-ncM"/>
+                                </constraints>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="btnReset:" destination="F9k-Ot-zyq" eventType="touchUpInside" id="nA0-RQ-ZW9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bz3-1N-vBr">
+                                <rect key="frame" x="167.5" y="144" width="40" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Lyn-YI-chI"/>
+                                    <constraint firstAttribute="height" constant="40" id="k0b-zM-HYo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10161160671634743" green="0.10112072938921532" blue="0.10210248404347955" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="0yn-lW-5T2" firstAttribute="trailing" secondItem="m1q-V9-zH6" secondAttribute="trailing" id="A7o-Vu-VFB"/>
+                            <constraint firstItem="nll-lX-OyQ" firstAttribute="centerX" secondItem="t4Y-Ba-0NB" secondAttribute="centerX" id="Hqw-4V-5wX"/>
+                            <constraint firstItem="Bz3-1N-vBr" firstAttribute="top" secondItem="0yn-lW-5T2" secondAttribute="top" constant="80" id="Nu2-T7-gyi"/>
+                            <constraint firstItem="m1q-V9-zH6" firstAttribute="leading" secondItem="0yn-lW-5T2" secondAttribute="leading" id="Ssj-td-coh"/>
+                            <constraint firstItem="0yn-lW-5T2" firstAttribute="bottom" secondItem="m1q-V9-zH6" secondAttribute="bottom" constant="20" id="aPW-oP-XF9"/>
+                            <constraint firstItem="Bz3-1N-vBr" firstAttribute="centerX" secondItem="t4Y-Ba-0NB" secondAttribute="centerX" id="f15-rh-HDI"/>
+                            <constraint firstItem="nll-lX-OyQ" firstAttribute="centerY" secondItem="t4Y-Ba-0NB" secondAttribute="centerY" id="j54-tI-vxY"/>
+                            <constraint firstItem="ota-yd-WEP" firstAttribute="leading" secondItem="0yn-lW-5T2" secondAttribute="leading" id="kJE-Yq-XcT"/>
+                            <constraint firstItem="0yn-lW-5T2" firstAttribute="trailing" secondItem="ota-yd-WEP" secondAttribute="trailing" id="kQf-Xi-7I3"/>
+                            <constraint firstItem="m1q-V9-zH6" firstAttribute="top" secondItem="ota-yd-WEP" secondAttribute="bottom" constant="20" id="rR1-hF-fwR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0yn-lW-5T2"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnStartStop" destination="ota-yd-WEP" id="dBa-f7-rMq"/>
+                        <outlet property="lblIndicator" destination="Bz3-1N-vBr" id="lL5-hL-mQ9"/>
+                        <outlet property="lblTimer" destination="nll-lX-OyQ" id="ijk-PH-cqv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0zA-tZ-IhH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1911" y="968"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="Zrt-23-BWu">
+            <objects>
+                <viewController storyboardIdentifier="UIViewController-WA8-gI-rKC" id="WA8-gI-rKC" customClass="SignUpViewController" customModule="iOS2019" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xri-HP-Qqy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="KGl-CW-tt4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rwo-3r-CqC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1439" y="1657"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="jFl-fB-WTG">
             <objects>
@@ -143,7 +267,7 @@
                 <viewControllerPlaceholder storyboardName="Primera" id="Cbe-fw-NKW" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7NB-ci-H4w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1718" y="-219"/>
+            <point key="canvasLocation" x="1758" y="-564"/>
         </scene>
         <!--Convertidor-->
         <scene sceneID="1RZ-cx-h7I">
@@ -151,7 +275,7 @@
                 <viewControllerPlaceholder storyboardName="Convertidor" id="49r-0h-xnc" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shS-fP-3LF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1738" y="-127"/>
+            <point key="canvasLocation" x="1883" y="-388"/>
         </scene>
         <!--Imc-->
         <scene sceneID="3g9-3F-KbM">
@@ -159,7 +283,7 @@
                 <viewControllerPlaceholder storyboardName="Imc" id="VLB-65-lJW" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YuY-YN-84h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1698" y="-174"/>
+            <point key="canvasLocation" x="212" y="-364"/>
         </scene>
         <!--Sonido-->
         <scene sceneID="eOy-tM-ps9">
@@ -167,7 +291,7 @@
                 <viewControllerPlaceholder storyboardName="Sonido" id="uwh-Dg-Pca" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CAh-wA-XjS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1714" y="-75"/>
+            <point key="canvasLocation" x="248.80000000000001" y="313.49325337331339"/>
         </scene>
         <!--Shake-->
         <scene sceneID="8Ve-zF-tXp">
@@ -175,7 +299,7 @@
                 <viewControllerPlaceholder storyboardName="Shake" id="9dk-Y9-7nZ" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Gi-Qh-HBe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1710" y="-18"/>
+            <point key="canvasLocation" x="1948" y="307.1964017991005"/>
         </scene>
         <!--Table-->
         <scene sceneID="H82-HG-hHv">
@@ -183,7 +307,7 @@
                 <viewControllerPlaceholder storyboardName="Table" id="sbb-me-GeD" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jlz-K0-OfP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1706" y="177"/>
+            <point key="canvasLocation" x="70" y="1008"/>
         </scene>
         <!--Spotify-->
         <scene sceneID="TDL-hz-aLP">
@@ -191,15 +315,7 @@
                 <viewControllerPlaceholder storyboardName="Spotify" id="B2f-V4-HmU" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fXa-NO-fAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1715" y="47"/>
-        </scene>
-        <!--Basketball-->
-        <scene sceneID="cji-JS-dFE">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Basketball" id="oce-x0-b0F" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RzA-6F-00o" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1731" y="111"/>
+            <point key="canvasLocation" x="1076" y="876"/>
         </scene>
     </scenes>
 </document>

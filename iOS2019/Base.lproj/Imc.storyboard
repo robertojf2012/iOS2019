@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dgc-ND-QdA">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Controller-->
+        <scene sceneID="ffV-Pq-cPC">
+            <objects>
+                <viewController id="dgc-ND-QdA" customClass="IMCController" customModule="iOS2019" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6o3-jR-xUf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresa tu peso en KG" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ivy-tw-Tve">
+                                <rect key="frame" x="80" y="84" width="215" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJy-CC-9My">
+                                <rect key="frame" x="60" y="184" width="255" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Calcular"/>
+                                <connections>
+                                    <action selector="btnCalcular:" destination="dgc-ND-QdA" eventType="touchUpInside" id="Art-n5-UfF"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Estatura en mts" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7NF-Gb-ZGT">
+                                <rect key="frame" x="80" y="134" width="215" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcw-qE-q0Q">
+                                <rect key="frame" x="0.0" y="264" width="375" height="100"/>
+                                <color key="backgroundColor" red="0.64732094470000001" green="0.95450808570000001" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="1VE-xt-o5D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ivy-tw-Tve" firstAttribute="top" secondItem="vWS-Vj-UiI" secondAttribute="top" constant="20" id="2MZ-3P-A56"/>
+                            <constraint firstItem="vWS-Vj-UiI" firstAttribute="trailing" secondItem="ivy-tw-Tve" secondAttribute="trailing" constant="80" id="EW4-Vs-If4"/>
+                            <constraint firstItem="7NF-Gb-ZGT" firstAttribute="leading" secondItem="vWS-Vj-UiI" secondAttribute="leading" constant="80" id="Ere-kp-6u1"/>
+                            <constraint firstItem="7NF-Gb-ZGT" firstAttribute="top" secondItem="ivy-tw-Tve" secondAttribute="bottom" constant="20" id="FXV-eC-g2S"/>
+                            <constraint firstItem="lJy-CC-9My" firstAttribute="top" secondItem="7NF-Gb-ZGT" secondAttribute="bottom" constant="20" id="Ngh-mZ-TiT"/>
+                            <constraint firstItem="Xcw-qE-q0Q" firstAttribute="top" secondItem="lJy-CC-9My" secondAttribute="bottom" constant="50" id="enE-8F-ckm"/>
+                            <constraint firstItem="vWS-Vj-UiI" firstAttribute="trailing" secondItem="7NF-Gb-ZGT" secondAttribute="trailing" constant="80" id="h4y-4R-TsM"/>
+                            <constraint firstItem="Xcw-qE-q0Q" firstAttribute="leading" secondItem="vWS-Vj-UiI" secondAttribute="leading" id="hsL-rt-IgM"/>
+                            <constraint firstItem="ivy-tw-Tve" firstAttribute="leading" secondItem="vWS-Vj-UiI" secondAttribute="leading" constant="80" id="iDZ-Ze-9XZ"/>
+                            <constraint firstItem="vWS-Vj-UiI" firstAttribute="trailing" secondItem="Xcw-qE-q0Q" secondAttribute="trailing" id="r8e-HJ-dwv"/>
+                            <constraint firstItem="vWS-Vj-UiI" firstAttribute="trailing" secondItem="lJy-CC-9My" secondAttribute="trailing" constant="60" id="uZw-Q4-Qkn"/>
+                            <constraint firstItem="lJy-CC-9My" firstAttribute="leading" secondItem="vWS-Vj-UiI" secondAttribute="leading" constant="60" id="vmF-E5-V2c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vWS-Vj-UiI"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblResult" destination="Xcw-qE-q0Q" id="G4h-aU-WNU"/>
+                        <outlet property="txtEstatura" destination="7NF-Gb-ZGT" id="w2c-KE-X3q"/>
+                        <outlet property="txtPeso" destination="ivy-tw-Tve" id="zP7-vU-GQI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uCb-W3-w2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="212" y="-364"/>
+        </scene>
+    </scenes>
+</document>
