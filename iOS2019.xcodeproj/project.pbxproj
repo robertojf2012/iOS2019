@@ -24,6 +24,7 @@
 		E19E443A2230AE4300831F40 /* SonidoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E44392230AE4300831F40 /* SonidoViewController.swift */; };
 		E19E443D2230B3DD00831F40 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E19E443C2230B3DD00831F40 /* cat.wav */; };
 		E1A4EC1D22431F1F00022B41 /* endgame.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1A4EC1C22431F1F00022B41 /* endgame.wav */; };
+		E1A4EC1F2243263400022B41 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A4EC1E2243263400022B41 /* SimpleTableViewController.swift */; };
 		E1B73FEE2231F9C100E70887 /* SpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */; };
 		E1B73FF32231FD5C00E70887 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E1B73FF22231FD5C00E70887 /* moments.mp4 */; };
 		E1B73FF72231FFDD00E70887 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B73FF52231FFDD00E70887 /* VideoCutter.swift */; };
@@ -83,6 +84,7 @@
 		E19E44392230AE4300831F40 /* SonidoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonidoViewController.swift; sourceTree = "<group>"; };
 		E19E443C2230B3DD00831F40 /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
 		E1A4EC1C22431F1F00022B41 /* endgame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = endgame.wav; sourceTree = "<group>"; };
+		E1A4EC1E2243263400022B41 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyViewController.swift; sourceTree = "<group>"; };
 		E1B73FF22231FD5C00E70887 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
 		E1B73FF52231FFDD00E70887 /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */,
 				E17BA31B220D159C0044B5A3 /* ViewController.swift */,
 				E17BA31D220D159C0044B5A3 /* Main.storyboard */,
+				E1A4EC1E2243263400022B41 /* SimpleTableViewController.swift */,
 				E1B73FF92232040300E70887 /* SignUpViewController.swift */,
 				E19E44392230AE4300831F40 /* SonidoViewController.swift */,
 				E17BA320220D159D0044B5A3 /* Assets.xcassets */,
@@ -497,6 +500,7 @@
 				E17BA348220D1C330044B5A3 /* Practica1ViewController.swift in Sources */,
 				E1B73FFC2232043100E70887 /* LogInViewController.swift in Sources */,
 				E19E443A2230AE4300831F40 /* SonidoViewController.swift in Sources */,
+				E1A4EC1F2243263400022B41 /* SimpleTableViewController.swift in Sources */,
 				E10C69FF22164E3400076A25 /* ConvertidorGradosViewController.swift in Sources */,
 				E17BA31A220D159C0044B5A3 /* AppDelegate.swift in Sources */,
 			);
