@@ -12,6 +12,8 @@
 		BF7072353BFDE7100623B303 /* Pods_iOS2019Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843C94CB7DB682EB0E3F9A59 /* Pods_iOS2019Tests.framework */; };
 		E10C69FF22164E3400076A25 /* ConvertidorGradosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10C69FE22164E3400076A25 /* ConvertidorGradosViewController.swift */; };
 		E1407F1E2224CFBB00B0387A /* MotionShakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1407F1D2224CFBB00B0387A /* MotionShakeViewController.swift */; };
+		E16E5C28225EC27300FB215A /* CustomCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E5C27225EC27300FB215A /* CustomCellViewController.swift */; };
+		E16E5C2A225EC93000FB215A /* LugarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E5C29225EC93000FB215A /* LugarCell.swift */; };
 		E17BA31A220D159C0044B5A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17BA319220D159C0044B5A3 /* AppDelegate.swift */; };
 		E17BA31C220D159C0044B5A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17BA31B220D159C0044B5A3 /* ViewController.swift */; };
 		E17BA31F220D159C0044B5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17BA31D220D159C0044B5A3 /* Main.storyboard */; };
@@ -74,6 +76,8 @@
 		E10C69FE22164E3400076A25 /* ConvertidorGradosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertidorGradosViewController.swift; sourceTree = "<group>"; };
 		E11727682214FAC200327D35 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E1407F1D2224CFBB00B0387A /* MotionShakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionShakeViewController.swift; sourceTree = "<group>"; };
+		E16E5C27225EC27300FB215A /* CustomCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellViewController.swift; sourceTree = "<group>"; };
+		E16E5C29225EC93000FB215A /* LugarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugarCell.swift; sourceTree = "<group>"; };
 		E17BA316220D159C0044B5A3 /* iOS2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17BA319220D159C0044B5A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E17BA31B220D159C0044B5A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -209,6 +213,7 @@
 				E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */,
 				E17BA31B220D159C0044B5A3 /* ViewController.swift */,
 				E17BA31D220D159C0044B5A3 /* Main.storyboard */,
+				E16E5C27225EC27300FB215A /* CustomCellViewController.swift */,
 				E1F135BF22447AA40021874C /* Imc.storyboard */,
 				E1A4EC1E2243263400022B41 /* SimpleTableViewController.swift */,
 				E1B73FF92232040300E70887 /* SignUpViewController.swift */,
@@ -221,6 +226,7 @@
 				E19D13FD221F88C80070F9FE /* IMCController.swift */,
 				E1407F1D2224CFBB00B0387A /* MotionShakeViewController.swift */,
 				E1B73FFB2232043100E70887 /* LogInViewController.swift */,
+				E16E5C29225EC93000FB215A /* LugarCell.swift */,
 			);
 			path = iOS2019;
 			sourceTree = "<group>";
@@ -526,6 +532,7 @@
 				E1407F1E2224CFBB00B0387A /* MotionShakeViewController.swift in Sources */,
 				E17BA31C220D159C0044B5A3 /* ViewController.swift in Sources */,
 				E1B73FF82231FFDD00E70887 /* VideoSplashViewController.swift in Sources */,
+				E16E5C2A225EC93000FB215A /* LugarCell.swift in Sources */,
 				E1B73FF72231FFDD00E70887 /* VideoCutter.swift in Sources */,
 				E1B84F082239E4FF00F4C2D0 /* BasketballTimerViewController.swift in Sources */,
 				E1B73FEE2231F9C100E70887 /* SpotifyViewController.swift in Sources */,
@@ -534,6 +541,7 @@
 				E19E443A2230AE4300831F40 /* SonidoViewController.swift in Sources */,
 				E1A4EC1F2243263400022B41 /* SimpleTableViewController.swift in Sources */,
 				E10C69FF22164E3400076A25 /* ConvertidorGradosViewController.swift in Sources */,
+				E16E5C28225EC27300FB215A /* CustomCellViewController.swift in Sources */,
 				E17BA31A220D159C0044B5A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
