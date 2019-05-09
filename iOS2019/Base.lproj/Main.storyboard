@@ -10,6 +10,40 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Reader View Controller-->
+        <scene sceneID="A1j-1y-3vs">
+            <objects>
+                <viewController id="tLc-xN-LBY" customClass="QRReaderViewController" customModule="iOS2019" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LP0-NQ-6o8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ey-Lv-39M">
+                                <rect key="frame" x="0.0" y="64" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SLC-iO-CMi"/>
+                                </constraints>
+                                <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Open Camera"/>
+                                <connections>
+                                    <action selector="btnOpenCamera:" destination="tLc-xN-LBY" eventType="touchUpInside" id="Pmf-gb-evJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5Ey-Lv-39M" firstAttribute="top" secondItem="p1f-Oy-zD7" secondAttribute="top" id="Ijd-8J-5Pp"/>
+                            <constraint firstItem="p1f-Oy-zD7" firstAttribute="trailing" secondItem="5Ey-Lv-39M" secondAttribute="trailing" id="PYG-U7-tMY"/>
+                            <constraint firstItem="5Ey-Lv-39M" firstAttribute="leading" secondItem="p1f-Oy-zD7" secondAttribute="leading" id="Ztn-t6-JOJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="p1f-Oy-zD7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1SL-QS-nqC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="343" y="448"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -91,6 +125,14 @@
                                     <segue destination="ESv-Fy-tDA" kind="show" id="RUj-Vy-XyW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bb2-Xq-ZfZ">
+                                <rect key="frame" x="0.0" y="424" width="375" height="30"/>
+                                <color key="backgroundColor" red="0.64732094470000001" green="0.95450808570000001" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="QR Reader"/>
+                                <connections>
+                                    <segue destination="tLc-xN-LBY" kind="show" id="zYu-ae-vp2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -100,6 +142,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UEs-le-jB0" secondAttribute="trailing" id="94I-AN-HUR"/>
                             <constraint firstItem="1aP-Yy-oyL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BDs-3b-8hd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NTn-A4-C7l" secondAttribute="trailing" id="CLH-hR-EtS"/>
+                            <constraint firstItem="Bb2-Xq-ZfZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DGC-3M-6Vs"/>
                             <constraint firstItem="UEs-le-jB0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fnh-Y7-Ae0"/>
                             <constraint firstItem="pUT-KL-HzO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GUV-IG-l7z"/>
                             <constraint firstItem="UEs-le-jB0" firstAttribute="top" secondItem="w8b-fJ-4jV" secondAttribute="bottom" constant="10" id="IjN-FK-x8y"/>
@@ -116,7 +159,9 @@
                             <constraint firstItem="bPp-Lb-sV2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gAR-nL-6oW"/>
                             <constraint firstItem="w8b-fJ-4jV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hZs-ZL-5Ti"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bPp-Lb-sV2" secondAttribute="trailing" id="lMw-MK-Ws3"/>
+                            <constraint firstItem="Bb2-Xq-ZfZ" firstAttribute="top" secondItem="UEs-le-jB0" secondAttribute="bottom" constant="10" id="nDP-bK-hBc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pUT-KL-HzO" secondAttribute="trailing" id="ot6-Js-9k3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bb2-Xq-ZfZ" secondAttribute="trailing" id="sLT-eM-Vy2"/>
                             <constraint firstItem="C6V-ky-8ju" firstAttribute="top" secondItem="cWe-tN-ywY" secondAttribute="bottom" constant="10" id="uf6-A1-BAW"/>
                             <constraint firstItem="NTn-A4-C7l" firstAttribute="top" secondItem="1aP-Yy-oyL" secondAttribute="bottom" constant="10" id="uzH-Or-kGq"/>
                             <constraint firstItem="cWe-tN-ywY" firstAttribute="top" secondItem="bPp-Lb-sV2" secondAttribute="bottom" constant="10" id="vM0-1z-8Xf"/>

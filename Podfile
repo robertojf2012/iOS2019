@@ -7,6 +7,8 @@ target 'iOS2019' do
   
   pod 'SwiftySound'
   # Pods for iOS2019
+  
+  pod 'QRCodeReader.swift', '~> 10.0.0'
 
   target 'iOS2019Tests' do
     inherit! :search_paths

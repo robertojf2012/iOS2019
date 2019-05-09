@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3867007B2AD88669C5E0AEEEB76EBCE3"
-               BuildableName = "Pods_iOS2019.framework"
-               BlueprintName = "Pods-iOS2019"
+               BlueprintIdentifier = "C178909657989F13E885B2D12672A92A"
+               BuildableName = "QRCodeReader.framework"
+               BlueprintName = "QRCodeReader.swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3867007B2AD88669C5E0AEEEB76EBCE3"
-            BuildableName = "Pods_iOS2019.framework"
-            BlueprintName = "Pods-iOS2019"
+            BlueprintIdentifier = "C178909657989F13E885B2D12672A92A"
+            BuildableName = "QRCodeReader.framework"
+            BlueprintName = "QRCodeReader.swift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
