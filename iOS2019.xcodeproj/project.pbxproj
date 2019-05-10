@@ -23,6 +23,7 @@
 		E17BA32F220D159D0044B5A3 /* iOS2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17BA32E220D159D0044B5A3 /* iOS2019Tests.swift */; };
 		E17BA33A220D159D0044B5A3 /* iOS2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17BA339220D159D0044B5A3 /* iOS2019UITests.swift */; };
 		E17BA348220D1C330044B5A3 /* Practica1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17BA347220D1C330044B5A3 /* Practica1ViewController.swift */; };
+		E186B9002285001C00F0E4EC /* GETHTTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E186B8FF2285001C00F0E4EC /* GETHTTPViewController.swift */; };
 		E19D13FE221F88C80070F9FE /* IMCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D13FD221F88C80070F9FE /* IMCController.swift */; };
 		E19E443A2230AE4300831F40 /* SonidoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E44392230AE4300831F40 /* SonidoViewController.swift */; };
 		E19E443D2230B3DD00831F40 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E19E443C2230B3DD00831F40 /* cat.wav */; };
@@ -94,6 +95,7 @@
 		E17BA339220D159D0044B5A3 /* iOS2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS2019UITests.swift; sourceTree = "<group>"; };
 		E17BA33B220D159D0044B5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E17BA347220D1C330044B5A3 /* Practica1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica1ViewController.swift; sourceTree = "<group>"; };
+		E186B8FF2285001C00F0E4EC /* GETHTTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETHTTPViewController.swift; sourceTree = "<group>"; };
 		E19D13FD221F88C80070F9FE /* IMCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCController.swift; sourceTree = "<group>"; };
 		E19E44392230AE4300831F40 /* SonidoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonidoViewController.swift; sourceTree = "<group>"; };
 		E19E443C2230B3DD00831F40 /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				E1B73FED2231F9C100E70887 /* SpotifyViewController.swift */,
 				E17BA31B220D159C0044B5A3 /* ViewController.swift */,
 				E17BA31D220D159C0044B5A3 /* Main.storyboard */,
+				E186B8FF2285001C00F0E4EC /* GETHTTPViewController.swift */,
 				E16C9D802283AB4C0094D9E2 /* QRReaderViewController.swift */,
 				E16E5C27225EC27300FB215A /* CustomCellViewController.swift */,
 				E1F135BF22447AA40021874C /* Imc.storyboard */,
@@ -510,14 +513,18 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-iOS2019/Pods-iOS2019-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,6 +546,7 @@
 				E1B73FF82231FFDD00E70887 /* VideoSplashViewController.swift in Sources */,
 				E16E5C2A225EC93000FB215A /* LugarCell.swift in Sources */,
 				E1B73FF72231FFDD00E70887 /* VideoCutter.swift in Sources */,
+				E186B9002285001C00F0E4EC /* GETHTTPViewController.swift in Sources */,
 				E16C9D812283AB4C0094D9E2 /* QRReaderViewController.swift in Sources */,
 				E1B84F082239E4FF00F4C2D0 /* BasketballTimerViewController.swift in Sources */,
 				E1B73FEE2231F9C100E70887 /* SpotifyViewController.swift in Sources */,
